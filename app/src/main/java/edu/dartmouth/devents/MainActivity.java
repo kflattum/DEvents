@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             userID = firebaseUser.getUid();
             databaseReference = databaseReference.child("users").child(userID).child("items");
             //databaseReference.addChildEventListener(new ListViewChildEventListener(adapter));
+            /////
         }
     }
 }
